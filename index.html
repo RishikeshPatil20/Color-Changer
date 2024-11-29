@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Background Color</title>
+    <style>
+      body {
+        background-color: #1d1616;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .container {
+        height: 400px;
+        width: 600px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+      }
+      .box {
+        height: 100px;
+        width: 100px;
+        cursor: pointer;
+        border: 2px solid #fff;
+      }
+      #red {
+        background-color: red;
+      }
+      #green {
+        background-color: green;
+      }
+      #yellow {
+        background-color: yellow;
+      }
+      #orangered {
+        background-color: orangered;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box" id="red"></div>
+      <div class="box" id="green"></div>
+      <div class="box" id="yellow"></div>
+      <div class="box" id="orangered"></div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
